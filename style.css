@@ -6,15 +6,15 @@ Primary Color (Dark Blue): rgb(25, 57, 92);
 Secondary Color (light Blue): rgb(159, 187, 228);
  */
 :root {
-    /* Colors used */
-    --primary-color: #333;
-    --page-style: #16A7B8;
-    --bg-color: #fefefe;
-    /* Font weight */
-    --light-weight: 300;
-    --regular-weight: 400;
-    --bold-weight: 600;
-    --extrabold-weight: 700;
+  /* Colors used */
+  --primary-color: #333;
+  --page-style: #16A7B8;
+  --bg-color: #fefefe;
+  /* Font weight */
+  --light-weight: 300;
+  --regular-weight: 400;
+  --bold-weight: 600;
+  --extrabold-weight: 700;
 }
 
 * {
@@ -343,47 +343,47 @@ section .title::after {
 }
 
 .work button {
-    border: none;
-    background: none;
-    color: #333;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    margin: 4px 2px;
-    cursor: pointer;
+  border: none;
+  background: none;
+  color: #333;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .work button:hover {
-    color: #16A7B8;
+  color: #16A7B8;
 }
 
 .work .card .content_img:hover{
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .work .card .content_img:hover div{
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 /* contact section styling */
 .contact {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .contact .title {
-    font-size: 32px;
-    color: #333;
+  font-size: 32px;
+  color: #333;
 }
 
 #contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .contact .container .title {
